@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8f74fe61c5778459ffe740074d89a1, type: 3}
+  m_Name: Level 6
+  m_EditorClassIdentifier: 
+  width: 8
+  height: 10
+  boardLayout:
+  - x: 3
+    y: 3
+    tileKind: 0
+  - x: 4
+    y: 3
+    tileKind: 0
+  - x: 2
+    y: 2
+    tileKind: 3
+  - x: 2
+    y: 3
+    tileKind: 3
+  - x: 5
+    y: 5
+    tileKind: 3
+  - x: 0
+    y: 0
+    tileKind: 4
+  - x: 0
+    y: 0
+    tileKind: 4
+  - x: 7
+    y: 0
+    tileKind: 4
+  - x: 0
+    y: 9
+    tileKind: 2
+  - x: 7
+    y: 9
+    tileKind: 2
+  dots:
+  - {fileID: 3451093953289688106, guid: 2ba0e0997a97b414487db258605cb909, type: 3}
+  - {fileID: 5479886686644535600, guid: bc456beb172665d4fabf4e452b0fb635, type: 3}
+  - {fileID: 4020814523427527028, guid: 934eb7a344084fa4da2387cbed141be8, type: 3}
+  - {fileID: 6709009366369330938, guid: e23aaf2e1c2b60a4fbe90aff5f5890dd, type: 3}
+  - {fileID: 4658866745625572219, guid: 35df6f8969a4d17498450672130c45c3, type: 3}
+  scoreGoals: a00f0000401f0000e02e0000
+  endGameRequirements:
+    gameType: 0
+    counterValue: 60
+  levelGoals:
+  - numberNeeded: 4
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: 46d113a22c6ee3e4ba31669311cfb4f8, type: 3}
+    matchValue: Breakable
+  - numberNeeded: 4
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: 7b0e932fe3bf8864b9af1945ab26dfde, type: 3}
+    matchValue: Slime
+  - numberNeeded: 3
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: 91838ce0075641543bd1dd4008fed1b7, type: 3}
+    matchValue: Concrete

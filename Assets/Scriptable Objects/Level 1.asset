@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f8f74fe61c5778459ffe740074d89a1, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  width: 7
+  height: 7
+  boardLayout: []
+  dots:
+  - {fileID: 7516748483270883866, guid: 4d612547c3fd5fa4a948597f29755d2a, type: 3}
+  - {fileID: 5479886686644535600, guid: bc456beb172665d4fabf4e452b0fb635, type: 3}
+  - {fileID: 6709009366369330938, guid: e23aaf2e1c2b60a4fbe90aff5f5890dd, type: 3}
+  - {fileID: 4658866745625572219, guid: 35df6f8969a4d17498450672130c45c3, type: 3}
+  scoreGoals: 640000009001000058020000
+  endGameRequirements:
+    gameType: 0
+    counterValue: 60
+  levelGoals:
+  - numberNeeded: 10
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: 65c21e651124ed746bf8cb5e45f48643, type: 3}
+    matchValue: Green Candy
